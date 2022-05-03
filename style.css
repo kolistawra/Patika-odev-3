@@ -1,0 +1,75 @@
+/* Google Fonts (Poppins and Dancing Script) */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@100;200;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #4f4f4f;
+    letter-spacing: 1px;
+}
+
+section {
+    width: 1300px;
+    margin: 70px auto;
+}
+
+.container {
+    display: flex;
+}
+
+.container .malzemeler {
+    display: flex;
+}
+
+.container .imgBox {
+    height: 700px;
+}
+
+.container .contentBox {
+    padding: 0px 50px;
+    /* background-color: rgb(22, 93, 102); */
+    height: 700px;
+
+}
+
+h1 {
+    color: #DE5AA2;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+h3, h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+
+.container .contentBox .malzemeler .box {
+    padding-right: 30px;
+}
+
+.container p {
+    letter-spacing: 2px;
+
+}
+
+.container .imgBox img {
+    height: 100%;
+}
+
+.afiyet {
+    color: #DE5AA2;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    text-align: right;
+    margin-top: 90px;
+}
